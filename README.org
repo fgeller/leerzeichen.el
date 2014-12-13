@@ -2,6 +2,8 @@
 
   Minor mode to highlight whitespace characters without font-lock.
 
+  [[https://raw.githubusercontent.com/fgeller/leerzeichen.el/master/screenshot.png][file:https://raw.githubusercontent.com/fgeller/leerzeichen.el/master/screenshot.png]]
+
 ** References
 
    http://stackoverflow.com/a/26479360
