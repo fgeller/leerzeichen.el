@@ -62,9 +62,10 @@
     (leerzeichen-disable)))
 
 (defun leerzeichen-enable ()
-  (when buffer-display-table
-    (setq leerzeichen-saved-buffer-display-table buffer-display-table))
+  "Install's leerzeichens display table as (buffer local) `buffer-display-table'."
+  (setq leerzeichen-saved-buffer-display-table buffer-display-table)
   (setq buffer-display-table leerzeichen-display-table))
 
 (defun leerzeichen-disable ()
+  "Resets `buffer-display-table' to state before leerzeichen was enabled."
   (setq buffer-display-table leerzeichen-saved-buffer-display-table))
