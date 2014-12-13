@@ -1,0 +1,7 @@
+* leerzeichen.el
+
+  Minor mode to highlight whitespace characters without font-lock.
+
+** References
+
+   http://stackoverflow.com/a/26479360
