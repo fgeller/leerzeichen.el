@@ -2,7 +2,7 @@
   "Faces for highlighting whitespace characters."
   :group 'leerzeichen)
 
-(defface leerzeichen '((t (:foreground "#585858")))
+(defface leerzeichen '((t (:foreground "#b8b8b8")))
   "Face for `leerzeichen-mode'."
   :group 'leerzeichen)
 
