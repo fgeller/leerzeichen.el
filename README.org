@@ -4,7 +4,8 @@
 
   [[https://raw.githubusercontent.com/fgeller/leerzeichen.el/master/screenshot.png][file:https://raw.githubusercontent.com/fgeller/leerzeichen.el/master/screenshot.png]]
 
-  Toggle via =M-x leerzeichen-mode=.
+  Load it the usual way, e.g., =(require 'leerzeichen)= and then toggle it via
+  =M-x leerzeichen-mode=.
 
 ** References
 
