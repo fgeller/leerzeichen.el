@@ -16,7 +16,7 @@
 (defvar leerzeichen-display-table
   (let ((table (make-display-table)))
     (aset table ?\n `[,leerzeichen-line-feed-glyph ?\n])
-    (aset table ?\t `[,leerzeichen-tab-glyph])
+    (aset table ?\t (vconcat `[,leerzeichen-tab-glyph] (make-vector (1- tab-width) ? )))
     (aset table ?\  `[,leerzeichen-space-glyph])
     table)
   "Display table to highlight whitespace characters.")
