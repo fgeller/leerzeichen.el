@@ -4,6 +4,8 @@
 
   [[https://raw.githubusercontent.com/fgeller/leerzeichen.el/master/screenshot.png][file:https://raw.githubusercontent.com/fgeller/leerzeichen.el/master/screenshot.png]]
 
+  Toggle via =M-x leerzeichen-mode=.
+
 ** References
 
    http://stackoverflow.com/a/26479360
