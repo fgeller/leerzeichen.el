@@ -2,10 +2,12 @@
 
   Minor mode to highlight whitespace characters without font-lock.
 
-  [[https://raw.githubusercontent.com/fgeller/leerzeichen.el/master/screenshot.png][file:https://raw.githubusercontent.com/fgeller/leerzeichen.el/master/screenshot.png]]
+  [[http://melpa.milkbox.net:1337/#/leerzeichen][file:http://melpa.milkbox.net:1337/packages/leerzeichen-badge.svg]]
 
   Load it the usual way, e.g., =(require 'leerzeichen)= and then toggle it via
   =M-x leerzeichen-mode=.
+
+  [[https://raw.githubusercontent.com/fgeller/leerzeichen.el/master/screenshot.png][file:https://raw.githubusercontent.com/fgeller/leerzeichen.el/master/screenshot.png]]
 
 ** References
 
