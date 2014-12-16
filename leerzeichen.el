@@ -69,3 +69,7 @@
 (defun leerzeichen-disable ()
   "Resets `buffer-display-table' to state before leerzeichen was enabled."
   (setq buffer-display-table leerzeichen-saved-buffer-display-table))
+
+(provide 'leerzeichen)
+
+;;; leerzeichen.el ends here
