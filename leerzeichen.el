@@ -46,13 +46,13 @@
 (defvar leerzeichen-tab-glyph (make-glyph-code ?» 'leerzeichen))
 (defvar leerzeichen-space-glyph (make-glyph-code ?· 'leerzeichen))
 
-(defvar leerzeichen-display-table
+(defun leerzeichen-display-table ()
+  "Display table to highlight whitespace characters."
   (let ((table (make-display-table)))
     (aset table ?\n `[,leerzeichen-line-feed-glyph ?\n])
     (aset table ?\t (vconcat `[,leerzeichen-tab-glyph] (make-vector (1- tab-width) ? )))
     (aset table ?\  `[,leerzeichen-space-glyph])
-    table)
-  "Display table to highlight whitespace characters.")
+    table))
 
 (define-minor-mode leerzeichen-mode
   "Minor mode to highlight whitespace characters by displaying them differently."
@@ -64,7 +64,7 @@
 (defun leerzeichen-enable ()
   "Installs leerzeichen's display table as (buffer local) `buffer-display-table'."
   (setq leerzeichen-saved-buffer-display-table buffer-display-table)
-  (setq buffer-display-table leerzeichen-display-table))
+  (setq buffer-display-table (leerzeichen-display-table)))
 
 (defun leerzeichen-disable ()
   "Resets `buffer-display-table' to state before leerzeichen was enabled."
