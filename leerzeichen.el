@@ -1,6 +1,6 @@
 ;;; leerzeichen.el --- Minor mode to display whitespace characters.
 
-;; Copyright (c) 2014 Felix Geller
+;; Copyright (c) 2014-2015 Felix Geller
 
 ;; Author: Felix Geller <fgeller@gmail.com>
 ;; Keywords: whitespace characters
