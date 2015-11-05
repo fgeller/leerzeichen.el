@@ -31,6 +31,8 @@
 
 ;; More information: https://github.com/fgeller/leerzeichen.el/
 
+;;; Code:
+
 (defgroup leerzeichen nil
   "Faces for highlighting whitespace characters."
   :group 'leerzeichen)
