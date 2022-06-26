@@ -59,7 +59,8 @@
 ;;;###autoload
 (define-minor-mode leerzeichen-mode
   "Minor mode to highlight whitespace characters by displaying them differently."
-  nil "lz " nil
+  :lighter "lz "
+  :keymap nil
   (if leerzeichen-mode
       (leerzeichen-enable)
     (leerzeichen-disable)))
